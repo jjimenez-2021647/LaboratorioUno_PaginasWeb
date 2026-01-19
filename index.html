@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="icon" type="image/x-icon" href="/Images/Icono.png">
+    <link rel="stylesheet" href="./Styles/index.css">
+</head>
+
+<body>
+    <!-- Header con navegación -->
+    <header class="header-principal">
+        <div class="contenedor-header">
+            <div class="logo">
+                <h1>Mi Portafolio</h1>
+            </div>
+            <nav class="navegacion">
+                <a href="index.html" class="nav-link activo">Inicio</a>
+                <a href="./Index/pasion.html" class="nav-link">Mi Pasión</a>
+                <a href="./Index/biografia.html" class="nav-link">Biografía</a>
+                <a href="./Index/rediseño.html" class="nav-link">Rediseño Kinal</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="contenedor-contenido">
+            <section class="bienvenida">
+                <h2>Bienvenido a Mi Espacio Digital 👻</h2>
+                <p>Explora las diferentes secciones para conocer más sobre mí y sobre mi institución</p>
+            </section>
+
+            <!-- Tarjetas de acceso rápido -->
+            <div class="grid-contenido">
+                <div class="tarjeta" onclick="window.location.href='./Index/pasion.html'">
+                    <h3>Mi Pasión</h3>
+                    <p>Descubre lo que me apasiona y el tiempo que dedico a ello</p>
+                </div>
+                
+                <div class="tarjeta" onclick="window.location.href='./Index/biografia.html'">
+                    <h3>Mi Biografía</h3>
+                    <p>Conoce mi historia y expectativas académicas para este año</p>
+                </div>
+                
+                <div class="tarjeta" onclick="window.location.href='./Index/rediseño.html'">
+                    <h3>Rediseño Kinal</h3>
+                    <p>Descubre mi propuesta de rediseño para el sitio web del colegio</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
