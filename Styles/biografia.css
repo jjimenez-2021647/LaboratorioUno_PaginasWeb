@@ -22,7 +22,6 @@ body {
     position: relative;
 }
 
-/* Overlay oscuro para mejorar legibilidad */
 body::before {
     content: '';
     position: fixed;
@@ -493,7 +492,6 @@ body::before {
     text-align: justify;
 }
 
-/* Frase Motivacional */
 .frase-motivacional {
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(20px);
@@ -521,7 +519,7 @@ body::before {
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive */
+/* responsivo */
 @media (max-width: 968px) {
     .contenido-dedicacion,
     .grid-habilidades {
